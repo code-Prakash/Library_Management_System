@@ -1,32 +1,17 @@
-📚 <b>Library Management System (C Project)<b><br>
-This Library Management System is a simple console-based application developed in C. It helps manage basic library operations such as issuing and returning books. The project uses structures, linked lists, and file-independent logic — ideal for students learning C programming.
+# Library Management System (C)
 
-🚀 Features<br>
-📘 Add & Initialize Books<br>
-Add book records with title, author, ID, total copies, and track issued copies using linked lists.
+This project is a simple console-based Library Management System written in C. It allows users to manage a collection of books and student records, issue and return books, and display student details. The system uses linked lists to store book and student information dynamically.
 
-🧾 Issue Books to Students<br>
-Issue books by entering student details such as enrollment number, name, phone, and email. Ensures availability before issuing.
+## Features
 
-🔁 Return Issued Books<br>
-Return books using the student’s enrollment number and book ID. Updates the library inventory accordingly.
+- Add and initialize books in the library
+- Issue books to students (with student details)
+- Return books and update records
+- Display all students who have issued books
+- Simple menu-driven interface
 
-📄 View Student Issue Details<br>
-Displays all currently issued books along with student information like name, enrollment number, email, and book details.
+This project is intended for learning purposes and demonstrates the use of structures, dynamic memory allocation, and linked lists in C.
 
-📦 Real-Time Inventory Management<br>
-Tracks how many copies of each book are issued and how many are available at any given time.
+---
 
-🛠️ Technologies Used
-
-Language: C
-
-Concepts: Structures, Linked Lists, Dynamic Memory Allocation
-
-IDE: Code::Blocks / VS Code
-
-Compiler: GCC (MinGW)
-
-💡 Purpose<br>
-This project is ideal for BCA/B.Tech students learning the basics of C programming and data structures. It’s a great beginner-level project for understanding how to manage records and build console-based applications without file handling.
-
+Author: Prakash Kumar
